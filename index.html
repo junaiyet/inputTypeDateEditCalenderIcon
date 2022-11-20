@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="date">
+</body>
+</html>
+
+<style>
+    input[type='date'] {
+  background: url(image/Calender.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 97%;
+  cursor: pointer;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  opacity: 0;
+  cursor: pointer;
+}
+</style>
